@@ -1,13 +1,12 @@
 package org.example;
-package Student.java;
+//import Student.Student;
 
 public class Main {
-//    public static void main(String[] args) {
-//        int numAdditiion = add(5, 6);
-//        System.out.print(numAdditiion);
-//    }
     public static void main(String[] args){
-        add(1, 2);
+        Student sum = new Student(1, 2);
+        System.out.println("Addition: " + sum.add());
+        System.out.println("Subtraction: " + sum.subtract());
+        System.out.println("Multiplication: " + sum.multiply());
     }
 
 
